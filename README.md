@@ -17,3 +17,15 @@ ROSE is a 32-bit RISC-V out-of-order superscalar processor core. The key feature
   - Can be simulated with Modelsim.
   - Can be synthesized.
 ![alt text](https://github.com/nimishmathure/ROSE-Processor/blob/main/Images/ROSE%20Processor%20Diag%201.jpg)
+
+## ReOrder Buffer
+- Each line can hold upto 2 instructions
+- Tries to commit as many instructions as possible from a line in each clock cycle (Max 2 commits per cc)
+![alt text](https://github.com/nimishmathure/ROSE-Processor/blob/main/Images/ROSE%20ROB.jpg)
+
+## Register File
+- 32 Bits registers
+- Dual write ports
+  - If matching addresses then Write B has higher priority. 
+- Quad read ports
+![alt text](https://github.com/nimishmathure/ROSE-Processor/blob/main/Images/ROSE%20Register%20File.jpg)
