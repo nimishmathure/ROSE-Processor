@@ -1,4 +1,6 @@
 # ROSE RISC-V Out-Of-Order Superscalar Execution Processor
+(Source code will be uploaded soon)
+
 ROSE is a 32-bit RISC-V out-of-order superscalar processor core. The key features are as follows:
 
 - ISA
