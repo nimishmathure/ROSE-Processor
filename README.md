@@ -18,7 +18,7 @@ ROSE is a 32-bit RISC-V out-of-order superscalar processor core. The key feature
   - Written in Verilog.
   - Can be simulated with Modelsim.
   - Can be synthesized.
-![alt text](https://github.com/nimishmathure/ROSE-Processor/blob/main/Images/ROSE%20Processor%20Diag%201.jpg)
+![alt text](https://github.com/nimishmathure/ROSE-Processor/blob/main/Images/ROSE%20Processor%20Diag%202.jpg)
 
 ## ReOrder Buffer
 - Each line can hold upto 2 instructions
